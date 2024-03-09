@@ -31,6 +31,10 @@ public class EjerciciosBasicos_5 {
                 numero = numero * numero2;
                 break;
             case "division":
+                if (numero == 0 || numero2 == 0) {
+                    System.out.println("No se puede dividir con 0");
+                    break;
+                }
                 numero = numero / numero2;
                 break;
             default:
