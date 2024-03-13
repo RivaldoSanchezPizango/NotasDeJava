@@ -18,7 +18,6 @@ public class Arrays_2 {
         colorDestino.add("Rojo");
 
 
-        /*
 
         // METODOS
 
@@ -55,7 +54,7 @@ public class Arrays_2 {
             System.out.println("El color es: " + color);
         }
 
-        */
+
 
         // ACCESO POSICIONAL
 
@@ -81,8 +80,15 @@ public class Arrays_2 {
             System.out.println("El color favorito existe: " + colorDestino.get(existeColorFavorito));
         }
 
-
         // lastIndexof
-
+        /*String colorFavorito = "Azul";
+        int indiceColorFavorito = colorDestino.lastIndexOf(colorFavorito);
+        if (indiceColorFavorito == -1) {
+            System.out.println("El color favorito no existe");
+        } else {
+            System.out.println("El color favorito existe: " + colorDestino.get(indiceColorFavorito));
+            System.out.println("La posicion es: " + indiceColorFavorito);
+        }
+*/
     }
 }
